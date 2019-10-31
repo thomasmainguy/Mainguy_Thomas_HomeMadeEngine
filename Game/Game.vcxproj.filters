@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sources\Game.cpp">
+      <Filter>Entities\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\MainScene.cpp">
+      <Filter>Entities\Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\FirstScene.cpp">
+      <Filter>Entities\Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\BackGround.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Collision.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\FirstPlayer.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Title.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\TitleGamplay.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\TuileEau.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\ColliderScene.cpp">
+      <Filter>Entities\Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\CirclePlayer.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\RectangleCollision.cpp">
+      <Filter>Entities\Sources\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\BackGround.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Collision.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\FirstPlayer.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Title.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\TitleGamplay.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\TuileEau.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\FirstScene.h">
+      <Filter>Entities\Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MainScene.h">
+      <Filter>Entities\Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ColliderScene.h">
+      <Filter>Entities\Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\CirclePlayer.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\RectangleCollision.h">
+      <Filter>Entities\Includes\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{91c89cbe-9a62-4070-8544-e3c7a93c77af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Includes">
+      <UniqueIdentifier>{2a95df6a-2d05-4155-97ff-ec9f77e7e351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Sources">
+      <UniqueIdentifier>{fe39ba8d-e247-4038-be2a-4b0dd7b6022f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Sources\Scenes">
+      <UniqueIdentifier>{a7051312-a622-4208-9c8f-31db6bbe5b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Sources\Entities">
+      <UniqueIdentifier>{036bcaba-7f9c-4611-828e-cba889aafea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Includes\Entities">
+      <UniqueIdentifier>{87ca196f-2b77-45a5-8971-32c7450e63e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Includes\Scenes">
+      <UniqueIdentifier>{64eb7690-61e5-4ca2-9202-a57a12d7a026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

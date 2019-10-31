@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="includes">
+      <UniqueIdentifier>{b69aae12-cc99-4097-9e5e-530756aea559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{a243ea7e-ad6d-4dd4-8f7b-23270d554a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Shapes">
+      <UniqueIdentifier>{2af8b304-6c4a-4687-a5fe-afab28b5f6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\services">
+      <UniqueIdentifier>{acd08e43-d3d5-45a8-91e3-76d00ed0326b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\null">
+      <UniqueIdentifier>{aeb3dbb2-eca1-4c5b-9b61-a0edfaeba27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\Shapes">
+      <UniqueIdentifier>{6cdd012f-b557-426f-9115-2d58f6904a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\null">
+      <UniqueIdentifier>{8541ec4d-730f-471c-9851-29d7cf214f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\Filled">
+      <UniqueIdentifier>{f018eeb1-2f82-4508-96d0-206e0cc5dd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Filled">
+      <UniqueIdentifier>{5474d8f3-e92f-45c8-9088-054f246f3446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librairie">
+      <UniqueIdentifier>{dbcae2fb-35cf-4e42-bf66-a213dceb57d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Engine.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Circle.h">
+      <Filter>includes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Point.h">
+      <Filter>includes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rectangle.h">
+      <Filter>includes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IInput.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EKeys.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IService.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IAudio.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGraphic.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NullAudio.h">
+      <Filter>includes\null</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NullGraphic.h">
+      <Filter>includes\null</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NullInput.h">
+      <Filter>includes\null</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDLGraphic.h">
+      <Filter>includes\Filled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ITimer.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NullTimer.h">
+      <Filter>includes\null</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDLInput.h">
+      <Filter>includes\Filled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Timer.h">
+      <Filter>includes\Filled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\World.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameState.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IScene.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Audio.h">
+      <Filter>includes\Filled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Log.h">
+      <Filter>includes\Filled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ILog.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NullLog.h">
+      <Filter>includes\null</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NullScene.h">
+      <Filter>includes\null</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneManager.h">
+      <Filter>includes\Filled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashKey.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ICollider.h">
+      <Filter>includes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NullCollider.h">
+      <Filter>includes\null</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColliderManager.h">
+      <Filter>includes\Filled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transformable.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicComponent.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sprite.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteSheet.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\Engine.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Circle.cpp">
+      <Filter>sources\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Rectangle.cpp">
+      <Filter>sources\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\NullAudio.cpp">
+      <Filter>sources\null</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\NullGraphic.cpp">
+      <Filter>sources\null</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\NullInput.cpp">
+      <Filter>sources\null</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SDLGraphic.cpp">
+      <Filter>sources\Filled</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\NullTimer.cpp">
+      <Filter>sources\null</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SDLInput.cpp">
+      <Filter>sources\Filled</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Timer.cpp">
+      <Filter>sources\Filled</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Entity.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\World.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SceneManager.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Audio.cpp">
+      <Filter>sources\Filled</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Log.cpp">
+      <Filter>sources\Filled</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\NullLog.cpp">
+      <Filter>sources\null</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\NullScene.cpp">
+      <Filter>sources\null</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\HashKey.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\NullCollider.cpp">
+      <Filter>sources\null</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\ColliderManager.cpp">
+      <Filter>sources\Filled</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Transform.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Sprite.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SpriteSheet.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Animation.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\external\libs\x86\libFLAC-8.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libfreetype-6.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libjpeg-9.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libmodplug-1.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libmpg123-0.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libogg-0.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libopus-0.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libopusfile-0.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libpng16-16.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libtiff-5.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libvorbis-0.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libvorbisfile-3.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\libwebp-7.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\SDL2.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\SDL2_image.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\SDL2_mixer.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\SDL2_ttf.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\external\libs\x86\zlib1.dll">
+      <Filter>librairie</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
